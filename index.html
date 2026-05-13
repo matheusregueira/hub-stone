@@ -17,18 +17,17 @@
     header {
       background: #16191f;
       border-bottom: 2px solid #00a868;
-      padding: 28px 40px;
+      padding: 20px 40px;
       display: flex;
       align-items: center;
       gap: 16px;
     }
 
-    .logo-dot {
-      width: 14px;
-      height: 14px;
-      background: #00a868;
-      border-radius: 50%;
+    .logo-img {
+      height: 44px;
+      width: auto;
       flex-shrink: 0;
+      object-fit: contain;
     }
 
     header h1 {
@@ -138,7 +137,7 @@
 <body>
 
   <header>
-    <div class="logo-dot"></div>
+    <img class="logo-img" src="logo.png" alt="Stone Barbacena" />
     <div>
       <h1>Hub de Ferramentas <span>· Stone Barbacena</span></h1>
       <div class="subtitle">Acesso rápido a todas as ferramentas internas do time</div>
